@@ -1,0 +1,83 @@
+{% extends "base.html" %}
+{% load bootstrap_tags %}
+{% block content %}
+    
+ 
+      
+        <div class="row">
+             
+              <div class="cols-6 col-md-4">
+                 <p class="text-uppercase">Tree</p>
+               <p><img src="/media/img/tree-4.jpg" width="100" height="100" alt="tree-4"></p>
+              <p>In today’s world and nature is a constant feature in current affairs.
+                 This design is meant to illustrate nature’s constant presence in the modern human’s thought process especially amongst the “thinkers” of today.
+                 The colour scheme is intending to capture the ever-increasing urgency by displaying the colours of autumn.
+                
+          </p>
+              </div>  
+             
+              <div class="cols-6 col-md-4"> 
+                  <p class="text-uppercase">Butterfly green</p>
+                <p><img src="/media/img/bfly-5.jpg" width="100" height="100" alt="bfly-5"></p>
+                <p>This a simple play with colours on butterfly wings to create a pattern with warm inviting colours.
+                    The design is intended to be versatile in use. Anything from a simple print e.g. a greeting card to a fabric pattern, a wallpaper or print on a t-shirt
+                </p>
+                
+                   </div>  
+              
+               <div class="cols-6 col-md-4">   
+                  <p class="text-uppercase">Logo1</p>
+               <p><img src="/media/img/flower-2.jpg"width="100" height="100" alt="flower-2"></p>
+                
+                <p>
+                    The client wanted a simple but beautiful display of flowers in a semi-circle around the company name. The thought behind the half-circle is to be open 
+                    and to surround those who enter with the beauty of flowers.
+
+
+                 </p>
+            </div>  
+          </div>   
+            
+            <div class="row">
+               
+              <div class="cols-6 col-md-4">   
+                 <p class="text-uppercase">Butterfly flower</p>
+               <p><img src="/media/img/bfly-22.jpg" width="100" height="100" alt="bfly-22"></p>
+             
+                <p>
+                    The idea behind the design is to capture the beauty of butterfly wing patterns on flower petals to form a print that be used for a multitude of usages, 
+                    e.g. a pattern on fabrics, wallpapers or a print on a shirt or simply a beautiful print to be framed and grace your wall with its’ beauty.
+
+                  </p>
+              
+              </div>  
+
+                <div class="cols-6 col-md-4">   
+                  <p class="text-uppercase">Butterfly orange</p>
+                <p><img src="/media/img/Bfly-34.jpg" width="100" height="100" alt="Bfly-34"></p>
+                 
+                   <p>
+                    Similar to “butterfly green” this a simple play with colours on butterfly wings to create a pattern with soothing feeling.
+                    The design is intended to be versatile in use. Anything from a simple print e.g. a greeting card to a fabric pattern, wallpapers or print on a t-shirt.
+                   </p>
+              </div>  
+                  
+                 <div class="cols-6 col-md-4">   
+                 <p class="text-uppercase">Logo-19</p>
+                <p><img src="/media/img/logo-19.jpg" width="100" height="100" alt="logo-19"></p>
+                 <p>
+                    The client runs a creative dessert bar, where all desserts are served on sticks.
+                    The desserts vary in from cakes to chocolates but are all in varying fun shapes and colours.
+                    The logo intends to clearly show that as well as display the company name.
+                  </p>
+
+                 </div> 
+    </div>      
+    
+    <h1>Leave your comments below</h1>
+    <form method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form | as_bootstrap }}
+        <button type="submit" class="btn btn-info">Save</button>
+    </form>
+{% endblock %}

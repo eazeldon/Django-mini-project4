@@ -1,0 +1,77 @@
+{% extends 'base.html' %}
+
+{% block page_title %}Home Page{% endblock %} 
+
+{% block page_heading %}Home{% endblock %}
+
+{% block content %}
+
+
+ <div class="row">
+       
+        <div class="text-center">  
+          <p>     This is a window to my designs and the services I can provide. Please look around. </p>
+
+          <p>  You’ll also be able to read about my ideas that went into each design I showcase on the blog.</p>
+
+          <p> I would love to hear what you think so please do leave a comment on my designs and blog entries.</p>
+
+        <p>    I look forward to reading about your impressions and opinions. </p>
+        
+   </div>
+  </div> 
+<!------------------
+        
+--------------->  
+     
+      <hr> {% if messages %}
+      <div>
+        {% for message in messages %} {{ message }} {% endfor %}
+     </div>
+     {% endif %}
+   
+             
+
+             
+             <div class='row'>
+              <div class="col-6 col-md-4">
+                 <p class="text-uppercase">Design title:  <strong>Tree</strong></p>
+               <p><img src="/media/img/tree-4.jpg" width="300" height="250" alt="tree-4"></p>
+                </div>
+              
+                <div class="col-6 col-md-4">
+                  <p class="text-uppercase">Design title:  <strong>Butterfly green</strong></p>
+                <p><img src="/media/img/bfly-5.jpg" width="300" height="250" alt="bfly-5"></p>
+               
+                </div>
+
+               <div class="col-6 col-md-4">
+                 <p class="text-uppercase">Design title:  <strong>Logo1</strong></p>
+               <p><img src="/media/img/flower-2.jpg"width="300" height="250" alt="flower-2"></p>
+             
+               </div>
+              
+           </div>
+              
+                
+             <div class='row'>
+               <div class="col-6 col-md-4">
+                 <p class="text-uppercase">Design title:  <strong>Butterfly flower</strong></p>
+               <p><img src="/media/img/bfly-22.jpg" width="300" height="250" alt="bfly-22"></p>
+                </div>
+
+                <div class="col-6 col-md-4">
+                  <p class="text-uppercase">Design title:  <strong>Butterfly orange</strong></p>
+                <p><img src="/media/img/Bfly-34.jpg" width="300" height="250" alt="Bfly-34"></p>
+                </div>
+           
+            <div class="col-6 col-md-4">
+                  <p class="text-uppercase">Design title:  <strong>Logo-19</strong></p>
+                <p><img src="/media/img/logo-19.jpg" width="300" height="250" alt="logo-19"></p>
+                </div>
+           
+           </div>
+ 
+
+
+{% endblock content %}
