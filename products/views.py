@@ -4,6 +4,10 @@ from .forms import ReviewForm
 from .models import Product
 
 # Create your views here.
+def products(request):
+ 
+    return render(request, "products.html")
+
 
 
 
