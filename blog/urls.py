@@ -28,7 +28,7 @@ from cart import urls as urls_cart
 from search import urls as urls_search
 from checkout import urls as urls_checkout
 from cart import urls as urls_cart
-from products.views import all_products
+from products.views import all_products, products
 from django.views import static
 from .settings import MEDIA_ROOT
 
@@ -37,6 +37,7 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', all_products, name='about'),
     url(r'^$', about, name="about"),
+    url(r'^$', products, name="products"),
     
 #     url(r'^$', index, name="index"),
 
