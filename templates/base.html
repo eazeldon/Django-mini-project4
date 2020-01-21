@@ -60,10 +60,13 @@
                         {% if user.is_authenticated %}
                         <li><a href="{% url 'profile' %}">Profile</a></li>
                         <li><a href="{% url 'logout' %}">Logout</a></li>
+                        <li><a href="{% url 'products' %}">Products</a></li> 
                        
+                         
                          {% else %}
                         <li><a href="{% url 'login' %}">login</a></li>
-                        <li><a href="{% url 'registration' %}">Register</a></li>  
+                        <li><a href="{% url 'registration' %}">Register</a></li>
+                        <li><a href="{% url 'products' %}">Products</a></li> 
                           
                          {% endif %}
                          <li>
@@ -108,7 +111,7 @@
            
             <form action="{% url 'search' %}" method="get">
                
-                  <p>Design title:<input type="text" name="q">
+                  <p>To order enter Design title:<input type="text" name="q">
                   
                 <button type="search">Search</button>
             </p>
