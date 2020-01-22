@@ -10,7 +10,7 @@ Why Design? It is to avoid any confusion on the content of the site. The site is
 ## Design / UX Design
 
 ### Summary
-The typical visitor is using an iPad or tablet to visit the site. The main reason the visitor is using their iPad or tablet is for convenience and that it gives a better view of designs than a phone screen. It is expected that the iPad/tablet is the best compromise for the user to have access to the designs on a good enough screen and resolution on the go and portability and web access opposed to a laptop. It is envisioned that the typical user will need to review designs or request customer designs while on the go, e.g. working on an interior design, and quickly need to see a design at a location and maybe hold it up against a wall or similar. That is application is not made easily with a laptop and the phone screen is too small.
+The typical visitor is using a mobile phone to visit the site. The main reason the visitor is using their mobile phone is for convenience. It is expected that the modern mobile phone is the best tool while on the go to have access to designs and the desktop/laptop while reviewing designs at the office/home. It is envisioned that the typical user will need to review designs or request customer designs while on the go, e.g. working on an interior design, and quickly need to see a design at a location and maybe hold it up against a wall or similar. That is not made easily with a laptop, why mobile phone screen viewing is given top priority.
 
 ## User stories
 •	As the site owner, I want to display my designs so that a registered site visitor can buy them.
@@ -29,10 +29,10 @@ The typical visitor is using an iPad or tablet to visit the site. The main reaso
 •	As a site visitor, I want to be able to search for other designs if I have the design name so that I can get the pricing for them.
 
 ## Design
-The website is designed with the intent to give the best possible viewing experience on iPad/tablet screens, followed by laptop/desktop and the lowest priority being mobile phone viewing. The reason for this priority is that people to a growing extent use their mobile phones as the premiere viewing medium for sites especially to do quick research and also to have easy and usable access when they need to review available designs or request a custom design. The website design is intended to be straight forward, simple to navigate and understand, without any confusing elements that can distract the visitor from achieving his/her objective with visiting the site.
+The website is designed with the intent to give the best possible viewing experience on mobile phone screens, followed by laptop/desktop and the lowest priority being tablet viewing. The reason for this priority is that people to a growing extent use their mobile phones as the premiere viewing medium for sites especially to do quick research and also to have easy and usable access when they need to review available designs or request a custom design. The reason tablet is given lowest priority is that the expected customer would either work on e.g. interior designs on a desktop/laptop or use the phone on the go. The website design is intended to be straight forward, simple to navigate and understand, without any confusing elements that can distract the visitor from achieving his/her objective with visiting the site.
 
 ## Wireframe
-I used Balsamiq to design my wireframe. I used iPhone 11, iPad, and MacBook pro views to give myself an idea of what I wanted to achieve in terms of what the site visitors will see and how it should be displayed. I’m aware of that when implementing it will not be perfect on all screens and operating systems but rather it will be a compromise. As I’m using Mac and don’t have a PC the main verification, as you will be able to read under testing, has been on iOS, Mac OS for desktop using both Safari and Google Chrome browsers. My priority is iPad as top priority, followed by desktop/laptop and finally iPhone experience. 
+I used Balsamiq to design my wireframe. I used iPhone 11, iPad, and MacBook pro views to give myself an idea of what I wanted to achieve in terms of what the site visitors will see and how it should be displayed. I’m aware of that when implementing it will not be perfect on all screens and operating systems but rather it will be a compromise. As I’m using Mac and don’t have a PC the main verification, as you will be able to read under testing, has been on iOS, Mac OS for desktop using both Safari and Google Chrome browsers. My priority is iPhone as top priority, followed by desktop/laptop and finally tablet experience. The reasoning for that priority is given in the design explanation above. 
 
 ## Header background Image and other images
 All images on the site are my own designs. This is to support the fact that the site is all about the site owner’s own designs and the showcasing of them. Images are intended to be shown in a manner that they attract the visitors’ attention and review without any distraction. The intention is to ensure that whatever time the visitor spends on the site is spent on achieving the site owner’s main purpose of the site.
@@ -67,7 +67,7 @@ Colours were selected with the intent of not distracting from the display of the
 
 
 ## Testing
-Testing has been made in Cloud 9, Inspect mode. In addition, it has been live tested on MacBook Pro 15” screen, with MacOS ver. 10.14.6 and browsers Google Chrome and Safari, iPad mini4 with iOS ver. 12.4 using the Safari browser, iPhone 6 plus iOS 12.3.1 with safari browser, iPhone 7 plus with iOS 13.3, iPhone 11 with iOS 13.3. The live testing was done by visiting the deployed site on the devices mentioned but also using the following online validators: 
+Testing has been made in Cloud 9, Inspect mode. In addition, it has been live tested on MacBook Pro 15” screen, with MacOS ver. 10.14.6 and browsers Google Chrome and Safari, iPad mini4 with iOS ver. 12.4 using the Safari browser, iPhone 7 plus with iOS 13.3, iPhone 11 with iOS 13.3. The live testing was done by visiting the deployed site on the devices mentioned but also using the following online validators: 
 
 •	http://browsershots.org/ 
 o	To get multiple browser view tests
@@ -78,8 +78,7 @@ o	For CSS validation
 •	https://www.freeformatter.com/
 o	For html validation
 
-Testing result revealed that the site is not perfect on all screens but that was expected. The site layout was designed with the intent to be as good as possible on iPad as top priority, followed by desktop viewing and mobile screens as the lowest priority.
-The reason for putting mobile as lowest priority is that it will always be difficult to view the designs in detail on a smaller screen. Ipad was given higher priority than desktop as more and more people seem to be using tablets instead of laptops.
+Testing result revealed that the site is not perfect on all screens but that was expected. The site layout was designed with the intent to be as good as possible on iPhone as top priority, followed by desktop viewing and tablet screens as the lowest priority. The reasoning for the priority is given in the design section.
 
 ### Errors left unaddressed
 When using an html validator the following issues were identified, but since I could not identify any errors on my site as a result of them, they were left unaddressed
