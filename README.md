@@ -96,11 +96,11 @@ a.	You will need them when you are ready to push your code to GitHub from cloud9
 12.	Sign in to Heroku
 13.	Create your project name
 
-a.	Select your name for the app
+   a.	Select your name for the app
 
-b.	Select the region
+   b.	Select the region
 
-c.	Click create app
+   c.	Click create app
 
 14.	Select “Resources” menu
 15.	In add-ons type “postgres”
@@ -144,20 +144,20 @@ c.	Click create app
 53.	Enter the needed information in the travis file
 54.	After you’ve completed everything in Cloud9 push to GitHub to host your code
 
-a.	Step 1: I use the command: git init 
+   a.	Step 1: I use the command: git init 
 
-b.	Step 2: I used the command: git status
+   b.	Step 2: I used the command: git status
 
-c.	Step 3: I used the command: git add . 
+   c.	Step 3: I used the command: git add . 
 
-d.	Step 4: I used the command: git commit -m”added changes”
+   d.	Step 4: I used the command: git commit -m”added changes”
 
-e.	I had some errors and used Sometimes the push didn’t work in GitHub so I used:
+   e.	I had some errors and used Sometimes the push didn’t work in GitHub so I used:
 
-•	Git merge –-abort
+   •	Git merge –-abort
 
-•	Git push --force
-and thereafter it worked.
+   •	Git push --force
+   and thereafter it worked.
 
 55.	Use the key you got from ”… or push an existing repository” in GitHub
 56.	Sign-in to GitHub and check that your code is there
@@ -169,7 +169,7 @@ and thereafter it worked.
 62.	Click the view log
 63.	Check for errors
 
-a.	In deploying to Heroku I had an error in my view log. It stated I’m missing some code in the requirement.txt. I have edited and replaced the file to successfully address the issue.
+   a.	In deploying to Heroku I had an error in my view log. It stated I’m missing some code in the requirement.txt. I have edited and replaced the file to successfully address the issue.
 
 64.	Once there are no errors there is a green “view” button meaning you have successfully completed the deployment to Heroku
 65.	Deployment completed.
