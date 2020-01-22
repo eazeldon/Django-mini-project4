@@ -95,9 +95,13 @@ The code was inspired by instructions and examples provided by Code Institute in
 a.	You will need them when you are ready to push your code to GitHub from cloud9
 12.	Sign in to Heroku
 13.	Create your project name
+
 a.	Select your name for the app
+
 b.	Select the region
+
 c.	Click create app
+
 14.	Select “Resources” menu
 15.	In add-ons type “postgres”
 16.	Choose the free option
