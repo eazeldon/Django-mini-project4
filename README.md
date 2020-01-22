@@ -140,7 +140,7 @@ a.	You will need them when you are ready to push your code to GitHub from cloud9
 45.	Go to IAM and create your app name, group, user and policy
 46.	The username is important because it will give you the key to access the bucket through cloud9, Heroku and GitHub. Download the .csv file
 47.	Test your bucket
-48.	Set-up you Travis CI & connect it to GitHub
+48.	Set-up you Travis CI & connect it to GitHub (I was instructed by my mentor that this step is optional)
 49.	Go to your account
 50.	Select your project – click to the switch next to your project name
 51.	On build, click unknown and select markdown in the pop-up
