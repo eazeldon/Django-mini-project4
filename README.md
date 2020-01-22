@@ -75,10 +75,14 @@ o	To get multiple browser view tests
 Testing result revealed that the site is not perfect on all screens but that was expected. The site layout was designed with the intent to be as good as possible on iPad as top priority, followed by desktop viewing and mobile screens as the lowest priority.
 The reason for putting mobile as lowest priority is that it will always be difficult to view the designs in detail on a smaller screen. Ipad was given higher priority than desktop as more and more people seem to be using tablets instead of laptops.
 
+## Acknowledgements
+The code was inspired by instructions and examples provided by Code Institute in the module named “Full Stack Frameworks with Django!”. Examples used as inspiration are taking from the module subsections named “Blog all about it” and “Putting It All Together | ECommerce Mini Project”. 
+
 ## Technologies used
-The code was inspired by instructions and examples provided by Code Institute in the module named “Full Stack Frameworks with Django!”. Examples used as inspiration are taking from the module subsections named “Blog all about it” and “Putting It All Together | ECommerce Mini Project”. The technologies used to build this project were: html, CSS, JavaScript, Python, jQuery, Ginger.
+The technologies used to build this project were: html, CSS, JavaScript, Python, jQuery, Ginger.
 
 ## Deployment
+
 ### These are the steps taken to deploy the site:
 
 1.	Sign-in to GitHub
