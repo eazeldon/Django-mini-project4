@@ -156,7 +156,9 @@ and thereafter it worked.
 61.	Go to “deploy” in Heroku
 62.	Click the view log
 63.	Check for errors
+
 a.	In deploying to Heroku I had an error in my view log. It stated I’m missing some code in the requirement.txt. I have edited and replaced the file to successfully address the issue.
+
 64.	Once there are no errors there is a green “view” button meaning you have successfully completed the deployment to Heroku
 65.	Deployment completed.
 
