@@ -141,11 +141,17 @@ c.	Click create app
 54.	After you’ve completed everything in Cloud9 push to GitHub to host your code
 
 a.	Step 1: I use the command: git init 
+
 b.	Step 2: I used the command: git status
+
 c.	Step 3: I used the command: git add . 
+
 d.	Step 4: I used the command: git commit -m”added changes”
+
 e.	I had some errors and used Sometimes the push didn’t work in GitHub so I used:
+
 •	Git merge –-abort
+
 •	Git push --force
 and thereafter it worked.
 
