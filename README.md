@@ -139,6 +139,7 @@ c.	Click create app
 52.	Create the travis.yml file
 53.	Enter the needed information in the travis file
 54.	After you’ve completed everything in Cloud9 push to GitHub to host your code
+
 a.	Step 1: I use the command: git init 
 b.	Step 2: I used the command: git status
 c.	Step 2: I used the command: git add . 
@@ -147,6 +148,7 @@ e.	I had some errors and used Sometimes the push didn’t work in GitHub so I us
 •	Git merge –-abort
 •	Git push --force
 and thereafter it worked.
+
 55.	Use the key you got from ”… or push an existing repository” in GitHub
 56.	Sign-in to GitHub and check that your code is there
 57.	Sign-in to Heroku
