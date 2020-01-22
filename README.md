@@ -1,4 +1,4 @@
-# Djando mini project4
+# Django-milestone project 4
 Student at Code Institue 
 https://mini-project-design.herokuapp.com/
 
