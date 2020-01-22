@@ -72,8 +72,27 @@ Testing has been made in Cloud 9, Inspect mode. In addition, it has been live te
 •	http://browsershots.org/ 
 o	To get multiple browser view tests
 
+•	https://jigsaw.w3.org/
+o	For CSS validation
+
+•	https://www.freeformatter.com/
+o	For html validation
+
 Testing result revealed that the site is not perfect on all screens but that was expected. The site layout was designed with the intent to be as good as possible on iPad as top priority, followed by desktop viewing and mobile screens as the lowest priority.
 The reason for putting mobile as lowest priority is that it will always be difficult to view the designs in detail on a smaller screen. Ipad was given higher priority than desktop as more and more people seem to be using tablets instead of laptops.
+
+### Errors left unaddressed
+When using an html validator the following issues were identified, but since I could not identify any errors on my site as a result of them, they were left unaddressed
+
+•	The character encoding was not declared. Proceeding using “windows-1252”.
+
+•	Non-space characters found without seeing a doctype first. Expected e.g. “<!DOCTYPE html>”.
+
+•	Element “head” is missing a required instance of child element “title”.
+
+When using a CSS validator two errors were found. The description was identical why it is only listed once in this document. The errors were left unaddressed since I could not identify and issues on the site as a result of them.
+
+•	.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus  //  Value Error : background-color none is not a background-color value : none
 
 ## Acknowledgements
 The code was inspired by instructions and examples provided by Code Institute in the module named “Full Stack Frameworks with Django!”. Examples used as inspiration are taking from the module subsections named “Blog all about it” and “Putting It All Together | ECommerce Mini Project”. 
