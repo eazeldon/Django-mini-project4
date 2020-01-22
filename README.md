@@ -13,19 +13,27 @@ Why Design? It is to avoid any confusion on the content of the site. The site is
 The typical visitor is using a mobile phone to visit the site. The main reason the visitor is using their mobile phone is for convenience. It is expected that the modern mobile phone is the best tool while on the go to have access to designs and the desktop/laptop while reviewing designs at the office/home. It is envisioned that the typical user will need to review designs or request customer designs while on the go, e.g. working on an interior design, and quickly need to see a design at a location and maybe hold it up against a wall or similar. That is not made easily with a laptop, why mobile phone screen viewing is given top priority.
 
 ## User stories
+
 •	As the site owner, I want to display my designs so that a registered site visitor can buy them.
+
 •	As the site owner, I want to display my designs so that a registered site visitor can give me comments/feedback on them.
+
 •	As the site owner, I want the site visitors to know how to contact me regarding custom designs so that I can discuss and sell custom design work via a direct dialogue to ensure I have all needed information and fully understand the site visitors need.
 
 •	As a site owner, I want the visitors to register so that I have contact details of existing and potential customers, e.g. to inform them when new designs are available, if I have a campaign, etc.
+
 •	As a site visitor, I want to register so that I can buy available designs.
+
 •	As a site visitor, I want to register so that I can leave comments/feedback on available designs.
 
 •	As a site visitor, I want to register so that I can get news and updates from the site owner.
+
 •	As a site visitor, I want to know how to contact the site owner so that I can initiate a discussion on custom designs.
+
 •	As a site visitor, I want to be able to search for designs if I have the design name so that I can comment/give feedback on them.
 
 •	As a site visitor, I want to be able to search for other designs if I have the design name so that I can place orders for them.
+
 •	As a site visitor, I want to be able to search for other designs if I have the design name so that I can get the pricing for them.
 
 ## Design
