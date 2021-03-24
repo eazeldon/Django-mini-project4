@@ -26,7 +26,7 @@ python-debian==0.1.32
 pytz==2019.3
 requests==2.22.0
 requests-unixsocket==0.1.5
-rsa==3.4.2
+rsa==4.1
 s3transfer==0.3.1
 SecretStorage==2.3.1
 six==1.13.0
