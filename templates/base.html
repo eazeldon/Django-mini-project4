@@ -19,7 +19,7 @@
 
 <!----page_heading------->
 
-  <title>{% block page_title %}{% endblock %}</title>
+  <!------title--------->
    <!----------------->   
   
   <!-------------->      
@@ -96,12 +96,16 @@
 
           <div id="masthead">
             <div class="container">
-           <!------------------>     
+          
+ 
+                <div class="row">
+                     <!------------------>  
+                <title>{% block page_title %}{% endblock %}</title>
                 <h2>
         {% block page_heading %}{% endblock %}
     </h2>
- 
-                <div class="row">
+                    
+                    
                     <h1 class="text-center"> Design
                         <p id="logo" class="lead">Welcome to my first design blog</p>
                     </h1>
