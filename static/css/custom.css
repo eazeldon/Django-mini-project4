@@ -81,8 +81,8 @@ h1, h1 a {
     text-decoration: none;
    
 }
-/*comments*/
-.comment-page  {
+/*page heading*/
+h2  {
     margin-top: 70px;
     margin-bottom: 7px;
 }
