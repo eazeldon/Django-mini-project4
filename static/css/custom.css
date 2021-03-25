@@ -82,7 +82,7 @@ h1, h1 a {
    
 }
 /*comments*/
-h1 {
+.comment-page  {
     margin-top: 70px;
     margin-bottom: 7px;
 }
